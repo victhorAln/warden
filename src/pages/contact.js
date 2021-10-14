@@ -10,7 +10,7 @@ const Contact = () => {
         height: '90vh'
       }}
     >
-      <h1>Contact Us</h1>
+      <h1>Contato</h1>
     </div>
   );
 };
