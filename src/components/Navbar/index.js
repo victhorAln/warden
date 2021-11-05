@@ -13,10 +13,12 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to='/'>
-          <img src={require('../../images/logo.svg')} alt='logo' />
+        Inicio
         </NavLink>
         <Bars />
         <NavMenu>
+        
+              
           <NavLink to='/empresas' activeStyle>
             Empresas
           </NavLink>
@@ -29,8 +31,6 @@ const Navbar = () => {
           <NavLink to='/sign-up' activeStyle>
             Sign Up
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
           <NavBtnLink to='/signin'>Sign In</NavBtnLink>

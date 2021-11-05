@@ -4,13 +4,17 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
 import Empresas from './pages/empresas';
-import Services from './pages/services';
+import Services from './components/Slider/slider';
+
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import SignIn from './pages/signIn';
 
+
 function App() {
   return (
+   <>
+    
     <Router>
       <Navbar />
       <Switch>
@@ -22,6 +26,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch>
     </Router>
+    </>
   );
 }
 
