@@ -57,12 +57,12 @@ export default function Slider() {
             </div>
            
         </div>
-        <div>
-            <a className="whatsapp-link" href="/oi"><i>
-                whatsapp
-            </i>
+        <div className="contact-link">
+            <a  href="/contato">
+              Entre em contato conosco
             
-            </a>
+            
+            </a >
         </div>
        </div> 
     )

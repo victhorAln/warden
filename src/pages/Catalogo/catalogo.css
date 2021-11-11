@@ -1,0 +1,13 @@
+.header-catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+    font-size: 20px;
+ 
+    
+}
+.catalogos{
+   margin-left: 20px;
+   font-style: none;
+}

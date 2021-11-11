@@ -90,9 +90,7 @@ const SignUp = () => {
                                 <Button
                                     type ="button"
                                     variant ="container"
-                                    fullWidth
-                                    color="red"
-                                    size="large"    
+                                   
                                 >
                                 </Button>
                                 <Link

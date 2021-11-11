@@ -6,8 +6,17 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Link from '@material-ui/core/link';
 import green from '@material-ui/core/colors/green';
+import { black, blue} from '@material-ui/core/colors';
 
-
+const CollorButton = withStyles(thema=> ({
+    root:{
+        color: '#fff',
+        backgroundColor:blue[800],
+        '&:hover':{
+            backgroundColor:blue[800]
+        }
+    }
+}))(Button)
 const ColorButton = withStyles(theme => ({
     root:{
         color: '#fff',
@@ -53,17 +62,17 @@ export class SignIn extends Component {
                                     type="password"
                                 />
                                 
-                                <Button
+                                <CollorButton
                                     type="button"
                                     size="sm"
                                     variant="container"
                                     fullWidth 
                                 >
                                         Entrar
-                                    </Button>
+                                    </CollorButton>
                                     
 
-                          <Link href="/cadastro">
+                          <Link href="/sign-up">
                                     
                                 <ColorButton
                                     type="button"
@@ -71,7 +80,7 @@ export class SignIn extends Component {
                                     variant="container"
                                     fullWidth   
                                 >
-                                   Se Cadastrar
+                                   Ainda não possui cadastro?
                                 </ColorButton>
 
                          </Link>

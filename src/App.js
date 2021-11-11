@@ -3,12 +3,12 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
-import Empresas from './pages/empresas';
-import Services from './components/Slider/slider';
+import Empresas from './pages/Empresa/empresa';
 
-import Contact from './pages/contact';
-import SignUp from './pages/signup';
-import SignIn from './pages/signIn';
+import Catalogo from './pages/Catalogo/catalogo'
+import Contact from './pages/contato/contact';
+import SignUp from './pages/SignUp/signup';
+import SignIn from './pages/SignIn/signIn';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/signin' component={SignIn}/>
         <Route path='/empresas' component={Empresas} />
-        <Route path='/services' component={Services} />
+        <Route path ='/catalogo' component={Catalogo}/>
         <Route path='/contato' component={Contact} />
         <Route path='/sign-up' component={SignUp} />
       </Switch>

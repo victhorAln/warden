@@ -12,28 +12,26 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
-        Inicio
+        <img src="../Imgs/logo.jpg"/>
+        <NavLink to='/' activeStyle={{fontFamily:'Avantgarde', fontSize:'25px'}}>
+        Warden
         </NavLink>
         <Bars />
         <NavMenu>
         
               
+          <NavLink to='/catalogo' activeStyle>
+            Catalogo
+          </NavLink>
           <NavLink to='/empresas' activeStyle>
             Empresas
-          </NavLink>
-          <NavLink to='/services' activeStyle>
-            Serviços
           </NavLink>
           <NavLink to='/contato' activeStyle>
             Contato
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
-          </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/signin'>Login</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

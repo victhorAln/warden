@@ -10,7 +10,7 @@ const Home = () => {
         height: '90vh'
       }}
     >
-      <h1>Home</h1>
+      <h1>Warden Representação Comercial</h1>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 .container-slider {
     max-width: 700px;
-    height: 500px;
+    height: 380px;
     margin: 100px auto 0;
     position: relative;
     overflow: hidden;
@@ -19,9 +19,10 @@
     transition: opacity ease-in-out 0.4s;
   }
   .slide img {
-    width: 100%;
+    width:65%;
     height: 100%;
     object-fit: cover;
+    margin-left:9em
   }
   .active-anim {
     opacity: 1;
@@ -74,5 +75,13 @@
   }
   .dot.active {
     background: rgb(32, 32, 32);
+  }
+  .contact-link{
+    color:red;
+    width: 40em;
+    height: 10em;
+    margin-top: 3em;
+    margin-left: 10em;
+    font-size: 20px;
   }
   
